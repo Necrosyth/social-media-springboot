@@ -29,7 +29,7 @@ navigate(`/profile/${userId}`)
               image={
                 item.userImage
               }
-              username={"code with zosh"}
+              username={"User"}
               description={"Follows you"}
             />
           ))}
