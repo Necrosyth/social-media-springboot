@@ -7,16 +7,15 @@ import { useNavigate } from "react-router-dom";
 
 const popularUser = [1, 2, 3, 4];
 const HomeRight = () => {
-  const navigate=useNavigate()
-  
-  const handleUserClick=(userId)=>{
-navigate(`/profile/${userId}`)
-  }
+  const navigate = useNavigate();
+
+  const handleUserClick = (userId) => {
+    navigate(`/profile/${userId}`);
+  };
   return (
     <div className="pr-5">
-      <SearchUser handleClick={handleUserClick}/>
+      <SearchUser handleClick={handleUserClick} />
       <div className="card p-5">
-        
         <div className="flex justify-between py-5 items-center">
           <p className="font-semibold opacity-70">Suggestions for you</p>
           <p className="text-xs font-semibold opacity-95">View All</p>
@@ -26,9 +25,7 @@ navigate(`/profile/${userId}`)
           {popularUser.map((item, index) => (
             <PopularUserCard
               key={index}
-              image={
-                item.userImage
-              }
+              image={item.userImage}
               username={"User"}
               description={"Follows you"}
             />
