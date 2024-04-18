@@ -18,12 +18,14 @@ const VideoCall = () => {
     userName
   );
 
+
+  
   const zp = ZegoUIKitPrebuilt.create(TOKEN);
   zp.addPlugins({ ZIM });
 
   function handleInvite() {
     const targetUser = {
-      userID: "2",
+      userID: "1",
       userName,
     };
     console.log("target user ------ ", targetUser);

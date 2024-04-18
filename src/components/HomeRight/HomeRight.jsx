@@ -5,7 +5,7 @@ import { red } from "@mui/material/colors";
 import SearchUser from "../SearchUser/SearchUser";
 import { useNavigate } from "react-router-dom";
 
-const popularUser = [1, 2, 3, 4];
+const popularUser = [1, 2, 3];
 const HomeRight = () => {
   const navigate = useNavigate();
 

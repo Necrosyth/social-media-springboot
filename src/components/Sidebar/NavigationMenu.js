@@ -36,17 +36,17 @@ export const navigationMenu=[
         icon:<MessageIcon/>,
         path:"/messages"
     },
-    {
-        title:"Lists" ,
-        icon:<ListAltIcon/>,
-        path:"/lists"
-    },
+    // {
+    //     title:"Lists" ,
+    //     icon:<ListAltIcon/>,
+    //     path:"/lists"
+    // },
     {
         title:"Communities" ,
         icon:<GroupIcon/>,
         path:"/communities"
     },
-    
+     
     {
         title:"Profile" ,
         icon:<AccountCircleIcon/>,
